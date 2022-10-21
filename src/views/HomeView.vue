@@ -13,6 +13,16 @@ export default {
   name: 'HomeView',
   components: {
     HelloWorld
-  }
+  },
+  data() {
+    return {
+      
+    }
+  },
+  methods: {
+    handleCancel(){
+      this.visible = false;
+    }
+  },
 }
 </script>
